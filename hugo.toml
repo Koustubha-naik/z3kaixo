@@ -13,6 +13,9 @@ disableKinds = ["taxonomy", "term"]
 
 [params]
   description = "A personal space where I share projects, technical blogs, homelab adventures, and hands-on experiences in software engineering, cybersecurity, pentesting, and red teaming."
+
+ googleAnalytics = "G-YWQRY723L1"
+
  logo = true
  logo_path = "icon/apple-touch-icon.png"
 
