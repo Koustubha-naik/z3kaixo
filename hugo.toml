@@ -1,0 +1,105 @@
+baseURL = "https://z3kaixo.koustubha.com"
+locale = "en-US"
+title = "Z3KAIXO"
+enableRobotsTXT = true
+disableKinds = ["taxonomy", "term"]
+
+[module]
+  [[module.imports]]
+    path = "github.com/Koustubha-naik/hugo-theme-sangai"
+
+[pagination]
+  pagerSize = 3
+
+[params]
+  description = "A personal space where I share projects, technical blogs, homelab adventures, and hands-on experiences in software engineering, cybersecurity, pentesting, and red teaming."
+ logo = true
+ logo_path = "icon/apple-touch-icon.png"
+
+[params.profile]
+  avatar = "img/profile.webp"
+  name = "Koustubha naik"
+  about = """
+I hack stuff 👾   
+📍Karnataka, India  
+ Always learning new things  
+🎮 Gaming is my escape  
+"""
+
+[params.explore_title]
+  title = "Explore"
+  subtitle = "Projects, blogs, write-ups, and things I'm exploring"
+
+[[params.social]]
+  icon = "github"
+  url = "https://github.com/Koustubha-naik"
+
+[[params.social]]
+  icon = "linkedin"
+  url = "https://www.linkedin.com/in/koustubha-naik/"
+
+[[params.social]]
+  icon = "x"
+  url = "https://x.com/Z3KAIXO"
+
+[[params.featured]]
+title = "How I Accidentally Became Addicted to Proxmox"
+description = "Turning a $200 ThinkPad into a 24/7 homelab."
+image = "img/proxmox.webp"
+url = "blog/proxmox/"
+
+[[params.featured]]
+title = "About Me"
+description = "Who am I? Here's my story."
+image = "img/black-hat.webp"
+url = "about/"
+
+[[params.explore]]
+  title = "Blog"
+  icon = "✍️"
+  category = "Writing"
+  description = "Thoughts, stories, and things I'm learning."
+  url = "blog/"
+
+[[params.explore]]
+  title = "About"
+  icon = "👋"
+  category = "Me"
+  description = "A little about me and my journey."
+  url = "about/"
+
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+
+  [markup.highlight]
+    lineNos = true
+    lineNumbersInTable = false
+
+[menu]
+
+  [[menu.main]]
+    name = "Home"
+    url = ""
+    weight = 1
+
+  [[menu.main]]
+    name = "Blog"
+    url = "blog/"
+    weight = 2
+
+  [[menu.main]]
+    name = "About"
+    url = "about/"
+    weight = 3
+
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
