@@ -1,7 +1,7 @@
 ---
 title: "How I Accidentally Became Addicted to Proxmox (And Why I Love It)"
 description: "How a $200 ThinkPad became my 24/7 homelab beast running Proxmox, VMs, containers, dashboards, and more — all from my bedroom."
-date: "2026-07-13"
+date: "2025-07-28"
 featuredimage: "/img/prox.webp"
 ---
 
