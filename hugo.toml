@@ -45,7 +45,7 @@ I hack stuff 👾
 [[params.featured]]
 title = "How I Accidentally Became Addicted to Proxmox"
 description = "Turning a $200 ThinkPad into a 24/7 homelab."
-image = "img/proxmox.webp"
+image = "img/prox.webp"
 url = "blog/proxmox/"
 
 [[params.featured]]

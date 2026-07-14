@@ -2,7 +2,7 @@
 title: "How I Accidentally Became Addicted to Proxmox (And Why I Love It)"
 description: "How a $200 ThinkPad became my 24/7 homelab beast running Proxmox, VMs, containers, dashboards, and more — all from my bedroom."
 date: "2026-07-13"
-featuredimage: "/img/Proxmox.webp"
+featuredimage: "/img/prox.webp"
 ---
 
 When I first installed Proxmox, all I wanted was to run one tiny VM. Just a Kali box. No big plans. No massive homelab dreams. Just a little space to play around and maybe try a few CTFs. But a few weeks later, I’m staring at the Proxmox dashboard like it's the freakin’ stock market, SSH’d into three different containers, and already thinking about buying more SSDs. What even happened?
