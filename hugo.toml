@@ -29,6 +29,19 @@ I hack stuff 👾
 🎮 Gaming is my escape  
 """
 
+[params.giscus]
+  repo = "Koustubha-naik/z3kaixo"
+  repoId = "R_kgDOTXs6UA"
+  category = "Announcements"
+  categoryId = "DIC_kwDOTXs6UM4DBkmZ"
+  mapping = "pathname"
+  strict = "0"
+  reactionsEnabled = "1"
+  emitMetadata = "0"
+  inputPosition = "bottom"
+  theme = "preferred_color_scheme"
+  lang = "en"
+
 [params.explore_title]
   title = "Explore"
   subtitle = "Projects, blogs, write-ups, and things I'm exploring"
@@ -44,6 +57,12 @@ I hack stuff 👾
 [[params.social]]
   icon = "x"
   url = "https://x.com/Z3KAIXO"
+
+[[params.featured]]
+title = "Proxmox VE Homelab Setup on a Lenovo ThinkPad T480"
+description = "A complete step-by-step guide to installing Proxmox VE on a laptop."
+image = "img/proxmox-thumb.webp"
+url = "blog/proxmox-laptop/"
 
 [[params.featured]]
 title = "How I Accidentally Became Addicted to Proxmox"
