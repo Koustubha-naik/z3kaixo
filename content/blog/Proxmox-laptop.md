@@ -37,7 +37,7 @@ Here's the hardware I'm using for this homelab:
 - **Internal Storage:** 256 GB SSD (Proxmox VE)
 - **External Storage:** 256 GB USB 3.0 SSD (VMs, ISO images, templates, and backups)
 
-![Lenovo ThinkPad T480 running Proxmox VE homelab](img/setup.webp "medium")
+![Lenovo ThinkPad T480 running Proxmox VE homelab](/img/setup.webp "medium")
 
 This setup has been more than enough for running multiple virtual machines and LXC containers. I use the internal SSD for the Proxmox installation, while the external SSD stores virtual machines, ISO images, templates, and backups.
 
@@ -49,7 +49,7 @@ The first step is to download the latest Proxmox VE ISO from the official websit
 
 Visit the official **[Proxmox VE Downloads](https://www.proxmox.com/en/downloads)** page and download the latest **Proxmox VE ISO Installer**. At the time of writing, I'm using the latest stable version available.
 
-![Proxmox VE downloads page](img/website.webp)
+![Proxmox VE downloads page](/img/website.webp)
 
 Once the download is complete, you're ready to create a bootable USB drive.
 
@@ -65,7 +65,7 @@ I used **[Rufus](https://rufus.ie/)** on Windows to create the bootable USB, but
 4. Choose your USB drive.
 5. Click **Start** and wait for the process to finish.
 
-![Creating a bootable Proxmox VE USB using Rufus](img/rufus.webp "medium")
+![Creating a bootable Proxmox VE USB using Rufus](/img/rufus.webp "medium")
 
 Once the bootable USB is ready, safely eject it and plug it into your ThinkPad T480.
 
@@ -77,7 +77,7 @@ As soon as the Lenovo logo appears, press **F12** repeatedly to open the boot me
 
 After a few moments, the Proxmox VE boot menu will appear. Select **Install Proxmox VE (Graphical)** and press **Enter** to begin the installation.
 
-![Proxmox VE boot menu](img/proxmox-boot-menu.webp)
+![Proxmox VE boot menu](/img/proxmox-boot-menu.webp)
 
 ## Installing Proxmox VE
 
@@ -115,7 +115,7 @@ You'll now see the Proxmox login page. Log in using the **root** account and the
 - **Realm:** Linux PAM authentication
 - **Password:** The password you set during installation
 
-![Proxmox VE web interface login page](img/proxmox-login.webp)
+![Proxmox VE web interface login page](/img/proxmox-login.webp)
 
 After logging in, you'll be taken to the Proxmox dashboard, where you can start creating virtual machines, LXC containers, and managing your homelab.
 
