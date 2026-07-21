@@ -71,7 +71,7 @@ image = "img/prox.webp"
 url = "blog/proxmox/"
 
 [[params.featured]]
-title = "About Me"
+title = "About Me ?!"
 description = "Who am I? Here's my story."
 image = "img/black-hat.webp"
 url = "about/"

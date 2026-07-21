@@ -2,7 +2,6 @@
 title: "How I Accidentally Became Addicted to Proxmox (And Why I Love It)"
 description: "How a $200 ThinkPad became my 24/7 homelab beast running Proxmox, VMs, containers, dashboards, and more — all from my bedroom."
 date: "2025-07-28"
-featuredimage: "/img/prox.webp"
 ---
 
 When I first installed Proxmox, all I wanted was to run one tiny VM. Just a Kali box. No big plans. No massive homelab dreams. Just a little space to play around and maybe try a few CTFs. But a few weeks later, I’m staring at the Proxmox dashboard like it's the freakin’ stock market, SSH’d into three different containers, and already thinking about buying more SSDs. What even happened?
@@ -61,3 +60,5 @@ This wasn’t just a server. It was my lab. My playground. My therapy. My dojo. 
 If you’re even slightly curious about homelabs — just do it. Grab an old laptop. Install Proxmox. Break things. Fix them. Make it yours. One day, you’ll blink and realize your dusty ThinkPad is now a 24/7 powerhouse running 10 VMs, streaming movies, hosting notes, blocking ads, and quietly running your entire digital life.
 
 Welcome to the madness. You’re gonna love it.
+
+
